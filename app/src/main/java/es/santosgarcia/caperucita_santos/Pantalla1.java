@@ -24,6 +24,10 @@ public class Pantalla1 extends AppCompatActivity {
     int contador = 0;
 
     public void opciona(View view){
+        contador++;
+        if (contador==1){
+
+        }
         img.setImageResource(R.drawable.imagen2);
         txt.setText(R.string.texto2);
     }
@@ -31,5 +35,6 @@ public class Pantalla1 extends AppCompatActivity {
     public void opcionb(View view){
         img.setImageResource(R.drawable.imagen3);
         txt.setText(R.string.texto3);
+
     }
 }
