@@ -16,10 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onClick(View v){
-
-
         Intent intent = new Intent(this,Pantalla1.class);
         startActivity(intent);
-
     }
 }

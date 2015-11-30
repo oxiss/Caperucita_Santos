@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,28 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="es.santosgarcia.caperucita_santos.MainActivity"
-    android:background="@drawable/fondomovil5">
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nueva partida"
-        android:id="@+id/bttnuevapartida"
-        android:layout_above="@+id/buttonContinue"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="49dp"
-        android:onClick="onClick" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Continuar"
-        android:id="@+id/buttonContinue"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="65dp" />
+    android:background="@drawable/fondomovil5"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="fill_parent"
@@ -38,7 +18,8 @@
         android:src="@drawable/caperucita"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/bttnuevapartida"
-        android:layout_alignStart="@+id/bttnuevapartida" />
+        android:layout_alignStart="@+id/bttnuevapartida"
+        android:layout_gravity="center_horizontal" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -46,6 +27,26 @@
         android:id="@+id/imageView2"
         android:src="@drawable/roja"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
 
-</RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva partida"
+        android:id="@+id/bttnuevapartida"
+        android:onClick="onClick"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/buttonContinue"
+        android:layout_below="@+id/bttnuevapartida"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
