@@ -13,17 +13,13 @@ public class PantallaFinal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_final);
         mVideoView =(VideoView)findViewById(R.id.videoView);
-        //de forma alternativa si queremos un streaming usar
-       String URLstring = "C:\\Users\\Miguel\\AndroidStudioProjects\\Caperucita_Santos\\app\\src\\main\\res\\raw\\video.mp4";
-        mVideoView.setVideoURI(Uri.parse(URLstring));
-       // mVideoView.setVideoPath("C:\\Users\\Miguel\\AndroidStudioProjects\\Caperucita_Santos\\app\\src\\main\\res\\raw\\video.mp4");
+        Uri path = Uri.parse("android.resource://es.santosgarcia.caperucita_santos/"+ R.raw.video);
+       mVideoView.setVideoURI(path);
         mVideoView.start();
-        mVideoView.requestFocus();
+       //mVideoView.requestFocus();
     }
 
 }
 
+//http://www.imaginaformacion.com/tutoriales/reproduccion-de-video-desde-raw-en-android/
 
-
-
-//http://www.androidcurso.com/index.php/tutoriales-android/37-unidad-6-multimedia-y-ciclo-de-vida/165-la-vista-videoview
