@@ -33,7 +33,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nueva partida"
+        android:text="New..."
         android:id="@+id/bttnuevapartida"
         android:onClick="onClick"
         android:layout_marginTop="100dp" />
@@ -41,12 +41,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Continuar"
+        android:text="Continue"
         android:id="@+id/buttonContinue"
         android:layout_below="@+id/bttnuevapartida"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="20dp"
-        />
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/buttonSettings"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
