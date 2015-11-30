@@ -45,7 +45,8 @@
         android:id="@+id/buttonContinue"
         android:layout_below="@+id/bttnuevapartida"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickContinue" />
 
     <Button
         android:layout_width="fill_parent"

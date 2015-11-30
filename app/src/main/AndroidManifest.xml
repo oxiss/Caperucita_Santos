@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Pantalla1" />
+        <activity android:name=".Settings" />
+        <activity android:name=".PantallaFinal"></activity>
     </application>
 
 </manifest>
