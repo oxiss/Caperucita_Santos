@@ -18,20 +18,32 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/battle"/>
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txtinstrucc"
+        android:id="@+id/textView"
+        android:background="#ffffff" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView4"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/dados"
-        android:layout_marginTop="70dp" />
+        android:layout_marginTop="40dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/resultbattle" />
+        android:id="@+id/resultbattle"
+        android:maxWidth="40dp"
+        android:minHeight="40dp"
+        android:background="#ffffff"
+        android:textSize="40dp"
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="wrap_content"
@@ -41,4 +53,14 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="25dp"
         android:onClick="rollingdice" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cont"
+        android:id="@+id/buttoncont"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        android:onClick="ContBattle" />
 </LinearLayout>

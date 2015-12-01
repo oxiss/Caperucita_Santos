@@ -21,12 +21,12 @@ public class Pantalla1 extends AppCompatActivity {
         txt = (TextView)findViewById(R.id.textoprincipal);
     }
 
-    public void opciona(View view){
+    public void PulseButtonA(View view) {
         Intent intent = new Intent(this,Pantalla2.class);
         startActivity(intent);
     }
 
-    public void opcionb(View view){
+    public void PulseButtonB(View view){
         Intent intent = new Intent(this,Pantalla3.class);
         startActivity(intent);
         }

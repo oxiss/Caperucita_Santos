@@ -65,20 +65,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/opciona"
-            android:id="@+id/button"
+            android:id="@+id/buttonoptionA"
             android:layout_weight="1"
             android:layout_marginRight="20dp"
-            android:onClick="opciona"/>
+            android:onClick="PulseButtonA"/>
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/opcionb"
-            android:id="@+id/button2"
+            android:id="@+id/buttonoptionB"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
-            android:onClick="opcionb"/>
+            android:onClick="PulseButtonB"/>
     </LinearLayout>
 
 </LinearLayout>
