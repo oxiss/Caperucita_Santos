@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Caperucita_Roja</string>
+    <string name="pregunta">¿Que eliges?</string>
+    <string name="opciona">Opcion A</string>
+    <string name="opcionb">Opcion B</string>
+
+
+    <string name="texto1">Érase una vez hubo una niña dulce. Todo el mundo que la veia le gustaba, pero sobre todo a su abuela,
+         que no sabía qué regalar al niño siguiente. Una vez que ella le dio un pequeño capuchón de terciopelo rojo. Debido a que le sentaba tan bien, y
+         que ella quería llevarlo todo el tiempo, llegó a ser conocida como Caperucita Roja. Un día su madre le dijo: "Ven pequeña caperucita.
+        Aquí tienes un pedazo de pastel y una botella de vino. Llévelos a tu abuela. Ella está enferma y débil, y le van a venir muy bien.
+         Se educada y dale recuerdos mios. Compórtate y no te apartes del camino, ten cuidado de tropezarte o rompras la botella, y luego no habrá nada para la abuelita.
+        \ n \ n Opción A: Ir al lago \ n Opción B: Ir a casa de la abuela"</string>
+
+    <string name="texto2">Caperucita roja prometio obedecer a su madre. La abuelita vivia en el bosque ,a media hora del pueblo.
+        Cuando caperucita roja entro en el bosque un Lobo se dirigio hacia ella. Ella no sabia que el Lobo era un animal malvado,
+        y por esa razon no tenia miedo de el. "Que tengas buen dia Caperucita Roja." - "Muchas gracias Señor Lobo." - "¿Donde vas tan temprano ,Caperucita?" - "A casa de mi abuelita." - "¿Y que llevas en la cesta?" - "Mi abuelita enta enferma y debil,y yo la llevo un trozo de pastel
+        y una botella de vino.\n \n Option A: Ir al lago \n Option B: Ir a casa de la Abuela"</string>
+
+    <string name="texto3">El pastel lo horneamos ayer y deberia darle fuerzas a mi abuela. "" Caperucita Roja, ¿Donde vive tu abuelita? "-" Su casa esta a un cuarto de hora de aquí, en el bosque, bajo los tres grandes robles. Junto un seto de arbustos de avellano. Seguro que conoce el lugar", dijo Caperucita Roja
+        El lobo pensó para sí mismo:". Ahora tendre un bocado sabroso."Luego dijo:" Escucha, Caperucita Roja, ¿no has visto las hermosas flores que florecen en el bosque? \ n \ n Opción A: Ir al lago \ n Opción B: Ir a casa de la abuela"</string>
+
+</resources>
