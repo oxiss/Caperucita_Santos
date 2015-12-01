@@ -1,5 +1,6 @@
 package es.santosgarcia.caperucita_santos;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -18,23 +19,16 @@ public class Pantalla1 extends AppCompatActivity {
         setContentView(R.layout.activity_pantalla1);
         img = (ImageView)findViewById(R.id.imgprincipal);
         txt = (TextView)findViewById(R.id.textoprincipal);
-
     }
 
-    int contador = 0;
-
     public void opciona(View view){
-        contador++;
-        if (contador==1){
-
-        }
-        img.setImageResource(R.drawable.imagen2);
-        txt.setText(R.string.texto2);
+        Intent intent = new Intent(this,Pantalla2.class);
+        startActivity(intent);
     }
 
     public void opcionb(View view){
-        img.setImageResource(R.drawable.imagen3);
-        txt.setText(R.string.texto3);
-
+        Intent intent = new Intent(this,Pantalla3.class);
+        startActivity(intent);
+        }
     }
-}
+

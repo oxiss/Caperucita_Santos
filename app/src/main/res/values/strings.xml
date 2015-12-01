@@ -3,6 +3,8 @@
     <string name="pregunta">What´s your choice?</string>
     <string name="opciona">Option A</string>
     <string name="opcionb">Option B</string>
+    <string name="battle">Oh! The wolf attacks you!!</string>
+    <string name="botonirbatalla">Fight!!</string>
 
 
     <string name="texto1">Once upon a time there was a sweet little girl. Everyone who saw her liked her, but most of all her grandmother,
@@ -23,5 +25,6 @@
         there. You must know the place," said Little Red Riding Hood. The wolf thought to himself: "Now there is a tasty bite for me. Just how
         are you going to catch her?" Then he said: "Listen, Little Red Riding Hood, havent you seen the beautiful flowers that are blossoming
         in the woods? \n \n Option A: Go to lake \n Option B: Go to grandmas House"</string>
+    <string name="title_activity_battle">Battle</string>
 
 </resources>
