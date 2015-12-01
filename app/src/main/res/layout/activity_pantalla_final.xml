@@ -16,4 +16,24 @@ tools:context="es.santosgarcia.caperucita_santos.PantallaFinal">
     android:layout_width="1000px"
     android:layout_height="1000px"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/you"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:contentDescription="@string/thnk"
+        android:src="@drawable/thank"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/imageView7" />
+
 </RelativeLayout>

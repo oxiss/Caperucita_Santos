@@ -53,6 +53,7 @@
         android:layout_height="wrap_content"
         android:text="Settings"
         android:id="@+id/buttonSettings"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickSettings" />
 
 </LinearLayout>
